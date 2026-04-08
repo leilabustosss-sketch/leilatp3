@@ -34,7 +34,9 @@ section, article, aside {
     margin: 10px;
     padding: 10px;
 }
-
+nav a: hover {
+    background: yellow;
+}
 
 img {
     max-width: 100%;
