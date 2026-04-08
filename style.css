@@ -1,0 +1,67 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #232323;
+    padding: 10px;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+
+section, article, aside {
+    background: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.tarjeta {
+    border: 1px solid black;
+}
+
+.destacado {
+    color: red;
+}
